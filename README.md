@@ -5,7 +5,7 @@
 
 BaseAdapter 를 커스터마이징해서 ListView 세팅할 수 있어야 합니다
 
-### ListView 사용단계
+#### ListView 사용단계
 
 1. ListView 위젯 가져오기
 2. Adapter 정의하기
@@ -15,7 +15,7 @@ BaseAdapter 를 커스터마이징해서 ListView 세팅할 수 있어야 합니
 
 RecyclerView.Adapter 를 커스터마이징 할 수 있어야 합니다.
 
-### RecyclerView 사용단계
+#### RecyclerView 사용단계
 
 1. Recycler 위젯 가져오기
 2. Adapter 정의하기
@@ -25,3 +25,5 @@ RecyclerView.Adapter 를 커스터마이징 할 수 있어야 합니다.
 ### CardView
 
 xmlns 로 namespace를 정의해서 cardview 속성을 사용할 수 있어야 합니다.
+
+cardview 에 onclick 이벤트를 정의할 수 있어야 합니다.
