@@ -18,7 +18,8 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".ListHolderActivity" />
         <activity android:name=".RecyclerActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".RecyclerCardActivity"></activity>
     </application>
 
 </manifest>

@@ -27,7 +27,7 @@ public class Data {
         Random random = new Random();
 
         // datas 에 100명의 User를 생성해서 담는다
-        for(int i=0 ; i<100 ; i++) {
+        for(int i=0 ; i<1000 ; i++) {
             User user = new User();
             user.id   = i+1;
             user.name = "홍길동 " + user.id;

@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnList, btnHolder, btnRecycler;
+    Button btnList, btnHolder, btnRecycler, btnCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity {
         btnList = (Button) findViewById(R.id.btnList);
         btnHolder = (Button) findViewById(R.id.btnHolder);
         btnRecycler = (Button) findViewById(R.id.btnRecycler);
+        btnCard = (Button) findViewById(R.id.btnCard);
 
         // 2. 리스너를 세팅한다.
         btnList.setOnClickListener(listener);
         btnHolder.setOnClickListener(listener);
         btnRecycler.setOnClickListener(listener);
+        btnCard.setOnClickListener(listener);
     }
 
     // 1. 리스너를 정의한다.
@@ -42,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btnRecycler:
                     intent = new Intent(MainActivity.this, RecyclerActivity.class);
                     break;
+                case R.id.btnCard:
+                    intent = new Intent(MainActivity.this, RecyclerCardActivity.class);
             }
 
             startActivity(intent);

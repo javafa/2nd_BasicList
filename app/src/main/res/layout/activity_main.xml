@@ -29,11 +29,20 @@
         android:id="@+id/btnHolder" />
 
     <Button
-        android:text="RecyclerView"
+        android:text="Recycler View"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnHolder"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/btnRecycler" />
+
+    <Button
+        android:text="Recycler Card View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRecycler"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnCard" />
 </RelativeLayout>
