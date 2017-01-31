@@ -1,2 +1,2 @@
-# 2nd_BasicList
+BasicList
 리스트뷰 사용법
